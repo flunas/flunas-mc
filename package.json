@@ -1,0 +1,33 @@
+{
+  "name": "flunas-mc",
+  "version": "1.0.0",
+  "description": "This is flunas module center.",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "autoTSC": "nodemon -e ts --exec tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flunas/flunas-mc.git"
+  },
+  "keywords": [
+    "flunas",
+    "module",
+    "center"
+  ],
+  "author": "flunas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flunas/flunas-mc/issues"
+  },
+  "homepage": "https://github.com/flunas/flunas-mc#readme",
+  "devDependencies": {},
+  "nodemonConfig": {
+    "ignore": [
+      "./dist",
+      "./node_modules"
+    ],
+    "delay": "2500"
+  }
+}
