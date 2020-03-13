@@ -1,6 +1,6 @@
 import showMessage from './modules/showMessage/showMessage';
 
-const flunasmc: any = {
+const flunasmc = {
     showMessage
 }
 

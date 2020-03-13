@@ -2,10 +2,9 @@
   "name": "flunas-mc",
   "version": "1.0.0",
   "description": "This is flunas module center.",
-  "main": "./dist/main.js",
-  "types": "./dist/main.d.ts",
+  "main": "main.js",
   "scripts": {
-    "autoTSC": "nodemon -e ts --exec tsc"
+    "test": "nodemon -e ts --exec 'tsc && npm link'"
   },
   "repository": {
     "type": "git",
